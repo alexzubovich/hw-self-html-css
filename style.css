@@ -47,7 +47,7 @@ button {
   margin-bottom: 30px;
 }
 
-.first-screen-text {
+.section-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -55,7 +55,7 @@ button {
   margin-bottom: 40px;
 }
 
-.first-screen-btn {
+.btn {
   border-radius: 4px;
   width: 155px;
   height: 50px;
@@ -65,5 +65,73 @@ button {
   line-height: 20px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  color: #fff;
+}
+
+/* Rates Section */
+.rates-section {
+  background-color: #f9fafc;
+  padding: 100px 0;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43px;
+  color: #363940;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #95a1bb;
+  width: 240px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.table-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #363940;
+}
+
+.table-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #363940;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.table-subtitle.gray {
+  color: #95a1bb;
+}
+
+.table-link {
+  color: #0a61f7;
+}
+
+.table-btn {
+  border: 1px solid #0a61f7;
+  border-radius: 4px;
+  width: 140px;
+  padding: 8px 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0a61f7;
+}
+
+.table-btn.active {
+  background: #0a61f7;
   color: #fff;
 }
