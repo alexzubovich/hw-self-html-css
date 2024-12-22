@@ -37,3 +37,33 @@ button {
   text-transform: uppercase;
   color: #fff;
 }
+
+/* First screen */
+.main-title {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 68px;
+  color: #363940;
+  margin-bottom: 30px;
+}
+
+.first-screen-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #95a1bb;
+  margin-bottom: 40px;
+}
+
+.first-screen-btn {
+  border-radius: 4px;
+  width: 155px;
+  height: 50px;
+  background-color: #0a61f7;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}
