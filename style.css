@@ -6,7 +6,8 @@
 
 html,
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
 }
 
 a {
@@ -20,4 +21,19 @@ ul {
 button {
   border: none;
   background-color: transparent;
+}
+
+/* Header */
+.header {
+  background-color: #0a61f7;
+  padding: 15px 0;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
 }
