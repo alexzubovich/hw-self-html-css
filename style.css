@@ -23,6 +23,20 @@ button {
   background-color: transparent;
 }
 
+.section-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43px;
+  color: #363940;
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #95a1bb;
+}
+
 /* Header */
 .header {
   background-color: #0a61f7;
@@ -47,11 +61,7 @@ button {
   margin-bottom: 30px;
 }
 
-.section-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #95a1bb;
+.first-screen .section-text {
   margin-bottom: 40px;
 }
 
@@ -74,11 +84,12 @@ button {
   padding: 100px 0;
 }
 
-.section-title {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 43px;
-  color: #363940;
+.rates-section .section-title {
+  margin-bottom: 20px;
+}
+
+.rates-section .section-text {
+  margin-bottom: 40px;
 }
 
 .table {
@@ -138,4 +149,66 @@ th {
 
 .table-footer td {
   padding: 30px 0;
+}
+
+/* Create Account Section */
+.create-acc-section {
+  padding: 100px 0;
+}
+
+.create-acc-section .section-title {
+  margin-bottom: 50px;
+}
+
+.create-acc-section .section-text {
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.list-item {
+  list-style-image: ('./assets/img/check.svg');
+  margin-left: 30px;
+  margin-bottom: 15px;
+  color: #363940;
+}
+
+input, select, fieldset, textarea, label, legend, input::placeholder, select::placeholder, textarea::placeholder {
+  color: #95A1BB;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: inherit;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+input[type="email"], input[type="password"], input[type="date"], select {
+  width: 230px;
+  height: 50px;
+}
+
+fieldset {
+  width: 100%;
+  padding: 30px 15px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 80px;
+  resize: none;
+}
+
+form .btn {
+  width: 100%;
+}
+
+select {
+  background: url(./assets/img/arrow-down-icon.svg) no-repeat right 15px top 50%;
+  appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: url(./assets/img/calendar-icon.svg) no-repeat;
 }
