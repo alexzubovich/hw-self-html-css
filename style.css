@@ -37,6 +37,15 @@ button {
   color: #95a1bb;
 }
 
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Header */
 .header {
   background-color: #0a61f7;
